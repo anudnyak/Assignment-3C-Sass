@@ -19,6 +19,10 @@ body {
 
   #{&}__paragraph {
     font-weight: map-get($font-weights, bold);
+
+    &:hover {
+      color: pink;
+    }
   }
 }
 
