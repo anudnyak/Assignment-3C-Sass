@@ -10,7 +10,7 @@
   overflow: hidden;
   align-items: center;
   text-align: center;
-  background: url("images/model-1.jpg") center top;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("images/model-1.jpg") center top;
   background-size: cover;
 }
 
