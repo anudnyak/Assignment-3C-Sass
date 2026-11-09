@@ -73,6 +73,18 @@
   transform: rotate(-45deg) translate(3px, -7px);
 }
 
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  opacity: 0.98;
+  visibility: hidden;
+}
+.nav.open {
+  visibility: visible;
+}
+
 body {
   background: #272727;
   color: #fff;
