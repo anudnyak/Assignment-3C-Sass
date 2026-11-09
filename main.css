@@ -205,6 +205,22 @@
   font-size: 2rem;
   margin-bottom: 2rem;
 }
+.projects__items {
+  width: 60vw;
+  margin: 2rem auto 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+}
+.projects__item {
+  position: relative;
+  border-bottom: 5px solid #ff652f;
+  overflow: hidden;
+  cursor: pointer;
+}
+.projects__item img {
+  width: 100%;
+}
 
 body {
   background: #272727;
