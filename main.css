@@ -7,32 +7,16 @@
 body {
   background: #272727;
   color: #fff;
+  height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1;
 }
 
-.main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  width: 40%;
-  margin: 0 auto;
-}
-.main .main__paragraph1, .main .main__paragraph2 {
-  font-weight: 700;
-}
-.main .main__paragraph1:hover, .main .main__paragraph2:hover {
-  color: pink;
-}
-.main .main__paragraph2:hover {
-  color: #ff652f;
-}
-@media (max-width: 800px) {
-  .main {
-    flex-direction: column;
-  }
+h1, h2, h3 {
+  font-weight: 400;
 }
 
-.light {
-  background: white;
-  color: black;
+a {
+  color: #fff;
+  text-decoration: none;
 }/*# sourceMappingURL=main.css.map */
