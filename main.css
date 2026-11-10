@@ -318,6 +318,12 @@
   .projects__items {
     grid-template-columns: repeat(2, 1fr);
   }
+  .projects__bio-image {
+    height: 40vh;
+  }
+  .projects__bio-image .text-secondary {
+    font-size: 3rem;
+  }
 }
 @media screen and (min-width: 1024px) {
   .projects__items {
