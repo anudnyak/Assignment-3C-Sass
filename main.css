@@ -324,9 +324,15 @@
   .projects__bio-image .text-secondary {
     font-size: 3rem;
   }
+  .contact__list {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 @media screen and (min-width: 1024px) {
   .projects__items {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .contact__list {
     grid-template-columns: repeat(3, 1fr);
   }
 }
