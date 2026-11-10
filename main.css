@@ -258,6 +258,13 @@
 .projects__btn:hover {
   color: #fff;
 }
+.projects .social-icons {
+  display: flex;
+  flex-direction: column;
+}
+.projects footer {
+  transform: rotate(90deg) translate(-3rem, -5rem);
+}
 
 body {
   background: #272727;
